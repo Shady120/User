@@ -1,0 +1,42 @@
+body {
+    background-color: #24353f;
+    font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+input::placeholder {
+  color: white !important;
+  opacity: 0.75 !important;
+}
+
+
+div.button button{
+    border: 1px solid #17a2b8;
+    border-radius: 5px;
+    color: #17a2b8;
+}
+div.button:hover {
+    background-color: #17a2b8;
+    transition: all 0.1s ;
+    border-radius: 5px;
+    outline: white;
+}
+
+p a:hover {
+    text-decoration: underline !important;
+}
+
+.shadow {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+div.message {
+    top: 25%;
+    width: 60% ;
+    right: 50%;
+    border: 1px solid transparent ;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+    transform: translate(50%,0%);
+}
