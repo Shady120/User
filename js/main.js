@@ -107,7 +107,7 @@ function checkLogin() {
       logSuccess.classList.replace("d-none", "d-block");
       logRequired.classList.replace("d-block", "d-none");
       logIncorrect.classList.replace("d-block", "d-none");
-      window.location.href = "../home.html";
+      window.location.href = "home.html";
       return;
     } else if (
       logEmail.value !== storedData[j].uName ||
