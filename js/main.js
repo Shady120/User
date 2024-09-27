@@ -8,6 +8,8 @@ var arr = [];
 var required = document.getElementById("required");
 var emailExists = document.getElementById("emailExists");
 var Success = document.getElementById("Success");
+var uWelcome = document.getElementById("uWelcome")
+
 
 if(localStorage.getItem("ourData")){
   arr = JSON.parse(localStorage.getItem("ourData"));
@@ -65,7 +67,7 @@ function checkData() {
     Success.classList.replace("d-none", "d-block");
     required.classList.replace("d-block", "d-none");
     emailExists.classList.replace("d-block", "d-none");
-    window.location.href = "home.html";
+    window.location.href = "../home.html";
   }
 }
 
@@ -107,7 +109,7 @@ function checkLogin() {
       logSuccess.classList.replace("d-none", "d-block");
       logRequired.classList.replace("d-block", "d-none");
       logIncorrect.classList.replace("d-block", "d-none");
-      window.location.href = "home.html";
+      window.location.href = "../home.html";
       return;
     } else if (
       logEmail.value !== storedData[j].uName ||
