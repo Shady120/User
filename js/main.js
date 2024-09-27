@@ -65,7 +65,7 @@ function checkData() {
     Success.classList.replace("d-none", "d-block");
     required.classList.replace("d-block", "d-none");
     emailExists.classList.replace("d-block", "d-none");
-    window.location.href = "../home.html";
+    window.location.href = "home.html";
   }
 }
 
